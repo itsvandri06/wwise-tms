@@ -14,7 +14,7 @@ const ACTION_ICONS = {
 
 const ACTION_COLORS = {
   created: '#10b981',
-  updated: '#ec4899',
+  updated: '#4858ec',
   deleted: '#dc2626',
 };
 
