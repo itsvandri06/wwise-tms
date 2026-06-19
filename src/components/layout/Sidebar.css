@@ -2,7 +2,7 @@
   width: 280px;
   min-height: 100vh;
   background: linear-gradient(180deg, #0c1535 0%, #12102a 55%, #1a0a18 100%);
-  border-right: 1px solid rgba(236, 72, 153, 0.12);
+  border-right: 1px solid rgba(72, 102, 236, 0.12);
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -65,13 +65,13 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  box-shadow: 0 4px 16px rgba(236, 72, 153, 0.35);
+  box-shadow: 0 4px 16px rgba(72, 148, 236, 0.35);
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .sidebar-cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(236, 72, 153, 0.45);
+  box-shadow: 0 6px 20px rgba(72, 138, 236, 0.45);
 }
 
 .sidebar-cta-icon {
@@ -112,8 +112,8 @@
 }
 
 .nav-link.active {
-  background: rgba(236, 72, 153, 0.14);
-  color: #f9a8d4;
+  background: rgba(72, 129, 236, 0.14);
+  color: #a8bbf9;
 }
 
 .nav-link-icon {
@@ -126,14 +126,14 @@
 .nav-link:hover .nav-link-icon {
   color: var(--primary);
   border-color: var(--primary);
-  background: rgba(236, 72, 153, 0.12);
+  background: rgba(72, 148, 236, 0.12);
 }
 
 .nav-link-icon.active {
   color: white;
   border-color: var(--primary);
   background: var(--primary);
-  box-shadow: 0 2px 10px rgba(236, 72, 153, 0.4);
+  box-shadow: 0 2px 10px rgba(72, 129, 236, 0.4);
 }
 
 .nav-link-label {
@@ -143,9 +143,9 @@
 .nav-link-indicator {
   position: absolute;
   inset: 0;
-  background: rgba(236, 72, 153, 0.1);
+  background: rgba(72, 124, 236, 0.1);
   border-radius: 999px;
-  border: 1px solid rgba(236, 72, 153, 0.25);
+  border: 1px solid rgba(72, 129, 236, 0.25);
   pointer-events: none;
 }
 
@@ -174,7 +174,7 @@
   height: 40px;
   border-radius: 50%;
   border: 2px dotted var(--primary);
-  background: rgba(236, 72, 153, 0.15);
+  background: rgba(72, 129, 236, 0.15);
   color: var(--primary);
   display: flex;
   align-items: center;
@@ -244,9 +244,9 @@
 }
 
 .sidebar-logout-btn:hover .sidebar-logout-icon {
-  color: #f87171;
-  border-color: #f87171;
-  background: rgba(248, 113, 113, 0.12);
+  color: #719cf8;
+  border-color: #71c2f8;
+  background: rgba(113, 172, 248, 0.12);
 }
 
 .sidebar-logout-icon {
