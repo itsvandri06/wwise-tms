@@ -238,9 +238,9 @@
 }
 
 .sidebar-logout-btn:hover {
-  border-color: rgba(248, 113, 113, 0.5);
+  border-color: rgba(113, 205, 248, 0.5);
   background: rgba(248, 113, 113, 0.08);
-  color: #fca5a5;
+  color: #a5d9fc;
 }
 
 .sidebar-logout-btn:hover .sidebar-logout-icon {
