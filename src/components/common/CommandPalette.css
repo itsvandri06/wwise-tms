@@ -16,7 +16,7 @@
   background: var(--surface);
   border: 2px solid var(--border);
   border-radius: var(--radius-lg);
-  box-shadow: 12px 12px 0 rgba(64, 125, 206, 0.12);
+  box-shadow: 12px 12px 0 rgba(112, 162, 226, 0.12);
   overflow: hidden;
 }
 
@@ -111,7 +111,7 @@
   background: var(--primary);
   border-color: var(--primary);
   border-style: dotted;
-  color: white;
+  color: rgb(191, 232, 252);
 }
 
 .cmd-item-text {
